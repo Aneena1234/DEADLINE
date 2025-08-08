@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Your Future</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="future-page">
+    <div class="overlay"></div>
+
+    <div class="future-container">
+        <h1 class="glow-title">🔮 See Your Future, <span id="user-name"></span></h1>
+        <p class="subtitle">Confess your deeds and face judgment...</p>
+
+        <textarea id="deeds" placeholder="Example: Stole chocolate from college..."></textarea>
+        <br>
+        <button class="choice-btn future-btn" onclick="judge()">Reveal My Fate</button>
+        <button class="choice-btn countdown-btn" onclick="location.href='home.html'">🔙 Back</button>
+
+        <div id="result" class="result-box"></div>
+    </div>
+
+    <!-- Hell Sound -->
+    <audio id="hell-sound" preload="auto">
+        <source src="https://www.myinstants.com/media/sounds/evil-laugh-1.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Heaven Sound -->
+    <audio id="heaven-sound" preload="auto">
+        <source src="https://www.myinstants.com/media/sounds/heavenly.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+    <script>
+        // Show saved username
+        document.getElementById("user-name").textContent =
+            localStorage.getItem("username") || "Stranger";
+    </script>
+</body>
+</html>

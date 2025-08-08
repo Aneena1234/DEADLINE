@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Enter Your Name</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+
+    <!-- Curtain Intro -->
+    <div class="curtain" id="curtain">
+        <div class="curtain-content">
+            <div class="curtain-text" id="curtainText">
+                <span>D</span><span>E</span><span>A</span><span>D</span>
+                <span>L</span><span>I</span><span>N</span><span>E</span>
+            </div>
+            <div class="curtain-subtitle" id="curtainSubtitle">Find Your Destiny</div>
+        </div>
+        <div id="shards-container"></div>
+    </div>
+
+    <!-- Glass Shatter Sound -->
+    <audio id="shatter-sound" src="https://www.myinstants.com/media/sounds/glass-breaking.mp3"></audio>
+
+    <!-- Login Form -->
+    <div class="overlay"></div>
+    <div class="login-container" id="loginContainer" style="display:none;">
+        <h1 class="glow-title">☠️ Enter Your Fate ☠️</h1>
+        <input type="text" id="username" placeholder="Type your name...">
+        <button class="pulse-btn" onclick="login()">Unlock Destiny</button>
+    </div>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+</body>
+</html>

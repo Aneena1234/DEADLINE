@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Death Countdown</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        #dramatic-count {
+            font-size: 8rem;
+            text-align: center;
+            margin-top: 15%;
+            text-shadow: 0 0 20px red, 0 0 40px darkred;
+            display: none;
+        }
+    </style>
+</head>
+<body class="countdown-page">
+    <div class="overlay"></div>
+
+    <div class="countdown-container">
+        <h1 class="glow-title">☠️ Predict Your Last Day ☠️</h1>
+        <p class="subtitle">Fill this form to know when the reaper is coming for you...</p>
+
+        <!-- Input Form -->
+        <div id="form-section">
+            <label>Date of Birth:</label><br>
+            <input type="date" id="dob"><br><br>
+
+            <label>Funny Symptoms / Habits:</label><br>
+            <textarea id="symptoms" placeholder="Example: Eat 5 packets of chips daily, sleep at 4AM..."></textarea><br><br>
+
+            <button class="choice-btn countdown-btn" onclick="predictDeath()">🔮 Predict My Death</button>
+            <button class="choice-btn future-btn" onclick="location.href='home.html'">🔙 Back</button>
+        </div>
+
+        <!-- Dramatic countdown -->
+        <div id="dramatic-count">3</div>
+
+        <!-- Countdown Result -->
+        <div id="result-section" style="display:none;">
+            <h2 id="death-date"></h2>
+            <div id="timer" class="countdown-timer"></div>
+            <button class="choice-btn future-btn" onclick="location.href='home.html'">🏠 Go Home</button>
+        </div>
+    </div>
+
+    <!-- Sounds -->
+    <audio id="suspense-sound" src="https://www.fesliyanstudios.com/play-mp3/387" preload="auto"></audio>
+    <audio id="heartbeat-sound" src="https://orangefreesounds.com/wp-content/uploads/2014/09/Heartbeat-sound.mp3" loop></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

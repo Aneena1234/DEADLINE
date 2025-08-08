@@ -1,0 +1,283 @@
+/* ===== General ===== */
+body {
+    margin: 0;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+.overlay {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: radial-gradient(circle at center, rgba(0,0,0,0.9) 0%, black 100%);
+    z-index: -1;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0;
+    width: 200%; height: 200%;
+    background: url('https://i.imgur.com/8Km9tLL.gif') repeat;
+    background-size: cover;
+    animation: smoke 60s linear infinite;
+    z-index: -2;
+}
+
+@keyframes smoke {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(-50%, -50%); }
+}
+
+/* ===== Titles ===== */
+.glow-title {
+    font-size: 2.5rem;
+    text-shadow: 0 0 10px red, 0 0 20px crimson, 0 0 40px darkred;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #bbb;
+}
+
+/* ===== Login Page ===== */
+.login-container {
+    margin-top: 15%;
+    text-align: center;
+}
+
+input {
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    border-radius: 8px;
+    width: 250px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-align: center;
+}
+
+/* Pulse Button */
+.pulse-btn {
+    background: crimson;
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    animation: pulse 1.5s infinite;
+    transition: transform 0.2s;
+}
+
+.pulse-btn:hover {
+    transform: scale(1.05);
+}
+
+@keyframes pulse {
+    0% { box-shadow: 0 0 10px crimson; }
+    50% { box-shadow: 0 0 20px red; }
+    100% { box-shadow: 0 0 10px crimson; }
+}
+
+/* ===== Curtain Intro ===== */
+.curtain {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    overflow: hidden;
+}
+.curtain-text {
+    font-size: 4rem;
+    font-weight: bold;
+    color: red;
+    text-shadow: 0 0 20px crimson, 0 0 40px darkred;
+    display: flex;
+    gap: 5px;
+}
+.curtain-text span {
+    display: inline-block;
+    transition: transform 1s ease, opacity 1s ease;
+}
+
+/* Shatter animation for each letter */
+.shatter span:nth-child(1) { transform: translate(-150px, -80px) rotate(-45deg); opacity: 0; }
+.shatter span:nth-child(2) { transform: translate(-100px, 100px) rotate(30deg); opacity: 0; }
+.shatter span:nth-child(3) { transform: translate(-200px, -50px) rotate(-60deg); opacity: 0; }
+.shatter span:nth-child(4) { transform: translate(100px, -100px) rotate(40deg); opacity: 0; }
+.shatter span:nth-child(5) { transform: translate(150px, 80px) rotate(-30deg); opacity: 0; }
+.shatter span:nth-child(6) { transform: translate(200px, -70px) rotate(50deg); opacity: 0; }
+.shatter span:nth-child(7) { transform: translate(-120px, 150px) rotate(-20deg); opacity: 0; }
+.shatter span:nth-child(8) { transform: translate(180px, 120px) rotate(25deg); opacity: 0; }
+
+/* ===== Home Page ===== */
+.home-container {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.choice-btn {
+    font-size: 20px;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.countdown-btn {
+    background: rgba(220, 20, 60, 0.8);
+    box-shadow: 0 0 15px crimson;
+}
+
+.future-btn {
+    background: rgba(138, 43, 226, 0.8);
+    box-shadow: 0 0 15px purple;
+}
+
+.choice-btn:hover {
+    transform: scale(1.1) rotate(-1deg);
+}
+
+/* ===== Countdown Page ===== */
+.countdown-container {
+    margin-top: 8%;
+    text-align: center;
+}
+
+.countdown-timer {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    text-shadow: 0 0 10px red, 0 0 20px crimson;
+}
+
+.countdown-timer span {
+    font-weight: bold;
+    color: #ff4d4d;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="date"], textarea {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    width: 250px;
+}
+
+textarea {
+    width: 300px;
+    height: 80px;
+    resize: none;
+}
+
+/* ===== Future Page ===== */
+.future-container {
+    margin-top: 8%;
+    text-align: center;
+}
+
+textarea#deeds {
+    width: 300px;
+    height: 100px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    resize: none;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+}
+
+.result-box {
+    margin-top: 20px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.hell-text {
+    color: red;
+    text-shadow: 0 0 10px darkred;
+}
+
+.heaven-text {
+    color: lightblue;
+    text-shadow: 0 0 10px skyblue;
+}
+/* ===== Glass Shards ===== */
+#shards-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    pointer-events: none;
+}
+
+.glass-shard {
+    width: 6px;
+    height: 12px;
+    background: rgba(173, 216, 230, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    border-radius: 2px;
+}
+
+.fly {
+    animation: shardFly 1.2s ease-out forwards;
+}
+
+@keyframes shardFly {
+    0% {
+        transform: translate(-50%, -50%) translate(0, 0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(-50%, -50%) translate(var(--x), var(--y)) rotate(720deg);
+        opacity: 0;
+    }
+}
+/* ===== Curtain Subtitle ===== */
+.curtain-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.curtain-subtitle {
+    font-size: 1.5rem;
+    color: #ddd;
+    opacity: 0;
+    margin-top: 10px;
+    text-shadow: 0 0 10px #bbb, 0 0 20px #aaa;
+    transition: opacity 1s ease;
+}
+
+.show-subtitle {
+    opacity: 1;
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome to Deadline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="home-page">
+    <div class="overlay"></div>
+    <div class="home-container">
+        <h1 class="glow-title">Welcome, <span id="user-name"></span></h1>
+        <div class="button-group">
+            <button class="choice-btn countdown-btn" onclick="location.href='countdown.html'">⏳ Countdown</button>
+            <button class="choice-btn future-btn" onclick="location.href='future.html'">🔮 Future</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+        document.getElementById("user-name").textContent = localStorage.getItem("username") || "Stranger";
+    </script>
+</body>
+</html>
