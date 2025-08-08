@@ -1,34 +1,34 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# [DEADLINE] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [Dumpz]
 
 
 ### Team Members
-- Team Lead: [Name] - [College]
-- Member 2: [Name] - [College]
-- Member 3: [Name] - [College]
+- Team Lead: [ANEENA OT] - [Jyothi Engineering College]
+- Member 2: [Abhinav S] - [Jyothi Engineering College]
 
 ### Project Description
-[2-3 lines about what your project does]
+[Deadline is a web-based prediction tool that estimates your death age from given symptoms or habits and predicts whether you’ll go to heaven or hell. It creates an engaging experience with heartbeat sounds during prediction and themed audio for the final outcome.]
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+[Nobody knows exactly when they’ll die or where they’ll end up in the afterlife…
+We decided to fix that problem — in the most inaccurate and unscientific way possible.
+]
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+[Our project uses an interactive frontend interface to estimate a user’s predicted death age based on their habits or symptoms, and determines whether they go to heaven or hell. It engages users with sound effects to create a tense and immersive experience, addressing the curiosity around life expectancy in a fun and fictional way.]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- [HTML,CSS,JavaScript]
+- [VS Code]
+- [GitHub]
 
 For Hardware:
 - [List main components]
@@ -38,10 +38,13 @@ For Hardware:
 ### Implementation
 For Software:
 # Installation
-[commands]
+[git clone https://github.com/your-username/DEADLINE.git
+cd DEADLINE]
 
 # Run
-[commands]
+[Double-click index.html and let the prophecy begin.
+Open the folder in VS Code, install the "Live Server" extension,  
+right-click index.html → "Open with Live Server" → Boom, you’re cursed.]
 
 ### Project Documentation
 For Software:
