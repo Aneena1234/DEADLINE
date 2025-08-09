@@ -57,8 +57,10 @@ The splash screen of the project displaying the project name "DEADLINE" and tagl
 ![Screenshot2](https://github.com/Aneena1234/DEADLINE/blob/main/Screenshot%20(29).png)
 The login page where users enter their name to unlock their destiny prediction.
 
-![Screenshot3]()
-*Add caption explaining what this shows*
+![Screenshot3](When you mix dark humor with a touch of curiosity: the ultimate ‘death date’ predictor form.)
+When you mix dark humor with a touch of curiosity: the ultimate ‘death date’ predictor form
+
+![Screenshot4]()
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
