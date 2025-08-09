@@ -88,8 +88,8 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
-*Explain what the video demonstrates*
+[https://drive.google.com/file/d/1pyp78AQ0GvCNOioiQhXv0osmFHLOVYpp/view?usp=drive_link]
+
 
 # Additional Demos
 [Add any extra demo materials/links]
