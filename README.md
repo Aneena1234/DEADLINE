@@ -50,8 +50,9 @@ right-click index.html → "Open with Live Server" → Boom, you’re cursed.]
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![https://github.com/Aneena1234/DEADLINE/blob/main/Screenshot%20(28).png]
+The splash screen of the project displaying the project name "DEADLINE" and tagline "Find Your Destiny" before the interactive elements appear.
+
 
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
