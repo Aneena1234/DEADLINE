@@ -54,10 +54,10 @@ For Software:
 The splash screen of the project displaying the project name "DEADLINE" and tagline "Find Your Destiny" before the interactive elements appear.
 
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot2](https://github.com/Aneena1234/DEADLINE/blob/main/Screenshot%20(29).png)
+The login page where users enter their name to unlock their destiny prediction.
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![Screenshot3]()
 *Add caption explaining what this shows*
 
 # Diagrams
