@@ -92,9 +92,8 @@ For Hardware:
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- [Aneena OT]: [UI Design, JavaScript logic for predictions, heartbeat & afterlife sounds]
+- [Abhinav S]: [HTML structure, CSS styling, testing (a.k.a. trying to cheat death).]
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
