@@ -60,7 +60,8 @@ The login page where users enter their name to unlock their destiny prediction.
 ![Screenshot3](When you mix dark humor with a touch of curiosity: the ultimate ‘death date’ predictor form.)
 When you mix dark humor with a touch of curiosity: the ultimate ‘death date’ predictor form
 
-![Screenshot4]()
+![Screenshot4](https://github.com/Aneena1234/DEADLINE/blob/main/Screenshot%20(31).png)
+This page reveals whether you're heading to heaven… or straight to hell
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
